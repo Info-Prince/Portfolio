@@ -1,0 +1,30 @@
+/*********** Base Rule Start************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ccc;
+    height: 100vh;
+    width: 100vw;
+}
+/********** Base Rule End hire  *********/
+
+/* Navbar section */
+.header {
+    background-color: green;
+}
+.nav-container {
+    background-color: yellow;
+    justify-content: space-between;
+    padding: ;
+}
+/* Navbar section */

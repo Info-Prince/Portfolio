@@ -1,0 +1,24 @@
+/****** Theme Start here *****/
+:root {
+        --bg-color: #ccc;
+
+}
+/****** Theme end here *****/
+
+/****** Layout Start Here *****/
+.container {
+        max-width: 150rem;
+        padding: 0 4rem;
+        margin: 0 auto;
+}
+
+.flex {
+        display: flex;
+}
+.align {
+        align-items: center;
+}
+.justify {
+        justify-content: center;
+}
+/****** Layout End Here *****/
