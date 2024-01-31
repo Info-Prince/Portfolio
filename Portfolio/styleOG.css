@@ -19,12 +19,83 @@ body {
 /********** Base Rule End hire  *********/
 
 /* Navbar section */
-.header {
-    background-color: green;
-}
+
 .nav-container {
-    background-color: yellow;
+    /* background-color: yellow; */
     justify-content: space-between;
-    padding: ;
+    height: 6rem;
+    margin: 0 15rem;
+
 }
+.logo {
+    font-size: 3.2rem;
+    transition: all 1s linear; 
+    cursor: pointer;
+}
+.nav-list {
+    gap: 4rem;
+    & li {
+        list-style: none;
+        }
+        & a {
+            text-decoration: none;
+            font-size: 2rem;
+            font-weight: 500;
+            color: black;
+            transition: all 0.3s linear;
+            /* animation: border 1s linear infinite; */
+        }
+    }
+.nav-list li a:hover {
+        color: gray;
+    }
+
+
 /* Navbar section */
+
+
+
+/* Home section */
+.home-section {
+    padding: 13rem 0 5rem;
+    background-image: linear-gradient( 
+        45deg,
+        #3f86fb,
+        #e8f1fe
+    );
+}
+.home-grid{
+    position: relative;
+    gap: 2rem;
+    & figure img{
+        position: relative;
+        right: -10rem;
+    }
+    & .home-content {
+        position: relative;
+        left: -10rem;
+    }
+}
+
+.home-grid figure img {
+    width: 40rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.home-section .home-content {
+    & .heading1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--para-color);
+    }
+    & h1 {
+        font-size: 4.8rem;
+    }
+    & .heading2 {
+        font-size: 2.8rem;
+        font-weight: 600;
+        color: var(--para-color);
+
+    }
+}
+/* Home section */
