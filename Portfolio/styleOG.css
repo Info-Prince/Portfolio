@@ -16,9 +16,6 @@ body {
     height: 100%;
     width: 100%;
 }
-main {
-    position: relative;
-}
 
 /********** Base Rule End hire  *********/
 
@@ -66,7 +63,9 @@ main {
 
 /* Home section */
 .home-section {
-    padding: 13rem 20rem 15rem;
+    position: relative;
+    padding: 13rem 20rem 13rem;
+    margin: 0 0 4rem 0;
     background-image: linear-gradient(45deg,
             #3f86fb,
             #e8f1fe);
@@ -113,17 +112,21 @@ main {
             border: 2px solid black;
             cursor: pointer;
         }
+
         & .cv-btn {
             transition: all 0.2s linear;
+
             &:hover {
                 background-color: #141e2c;
                 color: white;
             }
         }
+
         & .contant-btn {
             background-color: #141e2c;
             color: white;
             transition: 0.2s linear;
+
             &:hover {
                 background-color: black;
 
@@ -169,11 +172,71 @@ main {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 155px;
+    height: 13rem;
     transform: rotateY(180deg);
 }
 
 .custom-shape-divider-bottom-1707056050 .shape-fill {
     fill: #FFFFFF;
 }
+
 /* shape divider css */
+
+/* section about start */
+.section-about {
+    padding: 13rem 20rem 13rem;
+}
+.section-about .about-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & p {
+        font-size: 1.6rem;
+    }
+
+    & h1 {
+        font-size: 4.8rem;
+        font-weight: 800;
+    }
+}
+
+.section-about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.section-about .about-content {
+    & .about-left {
+        & img {
+            width: 40rem;
+            aspect-ratio: 1;
+        }
+    }
+
+    & .about-right {
+        & .edu-experiance--section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            text-align: center;
+            margin: 0 0 2rem 0 ;
+            
+            & .edu-experiance {
+                padding: 3rem 2rem;
+                border: 2px solid black;
+                border-radius: 3rem;
+                font-size: 2.6rem;
+                & a i {
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+/* section about end */
